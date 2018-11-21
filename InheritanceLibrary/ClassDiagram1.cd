@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InheritanceLibrary.Animal" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Bacteria" Collapsed="true">
+    <Position X="28.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Bacterias\Bacteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Planta" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Plantas\Planta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.SerVivo" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SerVivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Artropodos.Aracnido" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Artropodo" ManuallyRouted="true">
+      <Path>
+        <Point X="29.75" Y="5.441" />
+        <Point X="29.75" Y="7.187" />
+        <Point X="32.25" Y="7.187" />
+        <Point X="32.25" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Artropodos\Aracnidos\Aracnido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Artropodo" Collapsed="true">
+    <Position X="29" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Artropodos\Artropodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Invertebrado" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Invertebrado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Artropodos.Crustaceos.Crustaceo" Collapsed="true">
+    <Position X="25.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Artropodos\Crustaceos\Crustaceo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Artropodos.Insectos.Insecto" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Artropodos\Insectos\Insecto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Artropodos.Miriapodos.Miriapodo" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Artropodo" ManuallyRouted="true">
+      <Path>
+        <Point X="29.75" Y="5.441" />
+        <Point X="29.75" Y="7.198" />
+        <Point X="30.5" Y="7.198" />
+        <Point X="30.5" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Artropodos\Miriapodos\Miriapodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Cnidarios.Cnidario" Collapsed="true">
+    <Position X="27" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Cnidarios\Cnidario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Cnidarios.Medusas.Medusa" Collapsed="true">
+    <Position X="25.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Cnidarios\Medusas\Medusa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Cnidarios.Polipos.Polipo" Collapsed="true">
+    <Position X="28" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Cnidarios\Polipos\Polipo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Gusanos.Anelidos.Anelido" Collapsed="true">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Gusanos\Anelidos\Anelido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Gusanos.Gusano" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Invertebrado" ManuallyRouted="true">
+      <Path>
+        <Point X="26" Y="3.941" />
+        <Point X="26" Y="4.274" />
+        <Point X="16.5" Y="4.274" />
+        <Point X="16.5" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Gusanos\Gusano.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Gusanos.Nematodos.Nematodo" Collapsed="true">
+    <Position X="15.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Gusanos\Nematodos\Nematodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Gusanos.Platelmintos.Platelmintos" Collapsed="true">
+    <Position X="18" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Gusanos\Platelmintos\Platelmintos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Moluscos.Bivalvos.Bivalvo" Collapsed="true">
+    <Position X="21.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Moluscos\Bivalvos\Bivalvo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Moluscos.Cefalopodos.Cefalopodo" Collapsed="true">
+    <Position X="23.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Moluscos\Cefalopodos\Cefalopodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Moluscos.Gasteropodos.Gasteropodo" Collapsed="true">
+    <Position X="19.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Moluscos\Gasteropodos\Gasteropodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Moluscos.Molusco" Collapsed="true">
+    <Position X="22.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Moluscos\Molusco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Invertebrados.Poriferos.Polifero" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Invertebrados\Poriferos\Polifero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Vertebrados.Anfibios.Anfibio" Collapsed="true">
+    <Position X="13.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Vertebrados\Anfibios\Anfibio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Vertebrados.Anfibios.Ave" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Vertebrados\Aves\Ave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Vertebrados.Bestia" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Vertebrados\Mamiferos\Bestia.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Vertebrados.Vertebrado" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Vertebrados\Vertebrado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Vertebrados.Peces.Pez" Collapsed="true">
+    <Position X="9" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Vertebrados\Peces\Pez.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Vertebrados.Reptiles.Reptil" Collapsed="true">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Vertebrados\Reptiles\Reptil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Persona.Persona" Collapsed="true">
+    <Position X="30.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Persona\Persona.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InheritanceLibrary.Peculiaridades.Animales.Vertebrados.Peces.Ballena" Collapsed="true">
+    <Position X="8.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peculiaridades\Animales\Vertebrados\Peces\Ballena.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="InheritanceLibrary.Interfaces.ICarnivoro" Collapsed="true">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICarnivoro.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InheritanceLibrary.Interfaces.IHervivoro" Collapsed="true">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHervivoro.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InheritanceLibrary.Interfaces.IMarino" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMarino.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InheritanceLibrary.Interfaces.IOmnivoro" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOmnivoro.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InheritanceLibrary.IMamifero" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMamifero.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

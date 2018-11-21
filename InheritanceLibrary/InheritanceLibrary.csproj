@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF4CD715-9704-4592-A7E8-79F4401CB734}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InheritanceLibrary</RootNamespace>
+    <AssemblyName>InheritanceLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\ICarnivoro.cs" />
+    <Compile Include="Interfaces\IHervivoro.cs" />
+    <Compile Include="Interfaces\IMamifero.cs" />
+    <Compile Include="Interfaces\IMarino.cs" />
+    <Compile Include="Interfaces\IOmnivoro.cs" />
+    <Compile Include="Peculiaridades\Animales\Animal.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Artropodos\Aracnidos\Aracnido.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Artropodos\Artropodo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Artropodos\Crustaceos\Crustaceo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Artropodos\Insectos\Insecto.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Artropodos\Miriapodos\Miriapodo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Cnidarios\Cnidario.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Cnidarios\Medusas\Medusa.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Cnidarios\Polipos\Polipo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Gusanos\Anelidos\Anelido.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Gusanos\Gusano.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Gusanos\Nematodos\Nematodo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Gusanos\Platelmintos\Platelmintos.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Invertebrado.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Moluscos\Bivalvos\Bivalvo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Moluscos\Cefalopodos\Cefalopodo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Moluscos\Gasteropodos\Gasteropodo.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Moluscos\Molusco.cs" />
+    <Compile Include="Peculiaridades\Animales\Invertebrados\Poriferos\Polifero.cs" />
+    <Compile Include="Peculiaridades\Animales\Vertebrados\Anfibios\Anfibio.cs" />
+    <Compile Include="Peculiaridades\Animales\Vertebrados\Aves\Ave.cs" />
+    <Compile Include="Peculiaridades\Animales\Vertebrados\Mamiferos\Bestia.cs" />
+    <Compile Include="Peculiaridades\Animales\Vertebrados\Peces\Ballena.cs" />
+    <Compile Include="Peculiaridades\Animales\Vertebrados\Peces\Pez.cs" />
+    <Compile Include="Peculiaridades\Animales\Vertebrados\Reptiles\Reptil.cs" />
+    <Compile Include="Peculiaridades\Animales\Vertebrados\Vertebrado.cs" />
+    <Compile Include="Peculiaridades\Bacterias\Bacteria.cs" />
+    <Compile Include="Peculiaridades\Persona\Persona.cs" />
+    <Compile Include="Peculiaridades\Plantas\Planta.cs" />
+    <Compile Include="SerVivo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Peculiaridades\Plantas\ConFlor\" />
+    <Folder Include="Peculiaridades\Plantas\SinFlor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
